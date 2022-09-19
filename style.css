@@ -391,7 +391,7 @@
 }
 
 .s4-cards {
-  /* margin-top: 0rem; */
+  margin-top: 4rem;
   top: 25rem;
   height: 100%;
   width: 100%;
@@ -420,20 +420,25 @@
   }
 
   .s4-title > :nth-child(3) {
-    line-height: 4.5rem;
-    font-size: 55px;
+    line-height: 4rem;
+    font-size: 40px;
     letter-spacing: -2px;
   }
 
   .s4-cards {
     position: absolute;
-    top: 6rem;
+    top: 8rem;
+    margin-top: 3rem;
   }
 
   .s4-cards img {
     width: 18rem;
     height: 18rem;
     margin-left: 1rem;
+  }
+
+  .s4-cards::-webkit-scrollbar {
+    display: none;
   }
 }
 

@@ -426,7 +426,8 @@
   }
 
   .s4-cards {
-    position: absolute;
+    /* position: absolute; */
+    display: flex;
     top: 8rem;
     margin-top: 3rem;
   }

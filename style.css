@@ -495,7 +495,7 @@
     margin-top: 0rem;
     width: 100%;
     padding-left: 2rem;
-    padding-top: 2rem;
+    padding-top: 1rem;
     /* background: url('./images//s5-bg.png'); */
     background-size: cover;
     background-size: 200%;
@@ -551,6 +551,11 @@
     padding-bottom: 0.5rem;
   }
 
+  .s5-icons-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+  }
   .s5-icons-content > :nth-child(1) {
     transform: scale(0.8);
   }

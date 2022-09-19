@@ -177,7 +177,7 @@
   text-align: center;
 }
 .s2-img > img {
-  width: 80%;
+  width: 90%;
 }
 
 @media screen and (min-width: 360px) and (max-width: 749px) {
@@ -234,11 +234,13 @@
 .counter {
   width: 100%;
   margin-top: 3rem;
+  margin-right: 3rem;
   display: flex;
   justify-content: space-between;
 }
 
 .counter > * {
+  flex: 1;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -361,9 +363,10 @@
 /* Section-4 */
 
 .section-4 {
-  height: 100vh;
+  height: 90vh;
   background-image: url('./images/s4-bg.png');
   display: flex;
+  background-color: #f9f9f9;
   align-items: center;
   flex-direction: column;
   padding-top: 5rem;
@@ -388,9 +391,11 @@
 }
 
 .s4-cards {
-  margin-top: 20rem;
+  /* margin-top: 0rem; */
+  top: 25rem;
+  height: 100%;
   width: 100%;
-  overflow: scroll;
+  overflow-x: scroll;
   position: absolute;
   bottom: -2rem;
   display: flex;

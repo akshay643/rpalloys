@@ -121,13 +121,13 @@
   transition: 0.5s ease-in-out;
 }
 
-.fullPageMenu .nav ul li a::before {
+/* .fullPageMenu .nav ul li a::before {
   content: attr(data-text);
   position: absolute;
   bottom: -100%;
   left: 0;
   color: #fff;
-}
+} */
 
 .fullPageMenu .nav ul li:hover a {
   transform: translateY(-100%);
@@ -135,7 +135,7 @@
 }
 
 .menuicon {
-  /* position: fixed; */
+  position: sticky;
   top: 20px;
   left: 20px;
   width: 29.33px;
@@ -491,13 +491,13 @@
 }
 @media screen and (min-width: 360px) and (max-width: 749px) {
   .section-5 {
-    height: 100vh;
+    height: 50%;
     margin-top: 0rem;
     width: 100%;
     padding-left: 2rem;
     padding-top: 2rem;
     /* background: url('./images//s5-bg.png'); */
-    background-size: contain;
+    background-size: cover;
     background-size: 200%;
     background-repeat: no-repeat;
     display: flex;
@@ -506,6 +506,7 @@
   }
 
   .s5-title {
+    transform: scale(0.9);
     color: white;
     display: flex;
     flex-direction: column;
@@ -678,6 +679,7 @@ form {
     display: flex;
     flex-direction: column;
     padding: 0;
+    margin-top: 0;
     width: 100%;
     padding-top: 3rem;
   }

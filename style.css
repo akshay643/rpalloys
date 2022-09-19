@@ -135,9 +135,9 @@
 }
 
 .menuicon {
-  position: sticky;
+  position: absolute;
   top: 20px;
-  left: 20px;
+  /* left: 20px; */
   width: 29.33px;
   height: 15px;
   color: white;
@@ -162,7 +162,7 @@
     position: relative;
     color: #fff;
     text-decoration: none;
-    font-size: 2em;
+    font-size: 1rem;
     font-weight: 700;
     line-height: 1em;
     display: inline-block;
@@ -494,7 +494,8 @@
     height: 50%;
     margin-top: 0rem;
     width: 100%;
-    padding-left: 2rem;
+    padding-left: rem;
+    padding-top: 1rem;
     padding-top: 1rem;
     /* background: url('./images//s5-bg.png'); */
     background-size: cover;
@@ -506,7 +507,7 @@
   }
 
   .s5-title {
-    transform: scale(0.9);
+    transform: scale(0.8);
     color: white;
     display: flex;
     flex-direction: column;
